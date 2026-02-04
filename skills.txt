@@ -1,0 +1,17 @@
+python
+machine learning
+data science
+nlp
+deep learning
+sql
+pandas
+numpy
+scikit-learn
+tensorflow
+pytorch
+streamlit
+git
+github
+api
+cloud
+
