@@ -56,34 +56,21 @@ streamlit run app.py
 5. Upload your resume PDF + paste a job description → get your score!
 
 🧠 How It Works
+
 User uploads PDF resume + pastes job description
-
-                ↓
-
+↓
 pdfplumber extracts text from PDF
-
-                ↓
-
+↓
 Both texts cleaned and preprocessed
-
-                ↓
-
+↓
 TF-IDF vectorization applied to both documents
-
-                ↓
-
+↓
 Cosine similarity computed → match percentage
-
-                ↓
-
+ ↓
 Skills extracted from JD vs resume using skills.txt
-
-                ↓
-
+↓
 Missing skills identified
-
-                ↓
-
+↓
 Streamlit dashboard renders: score + matched skills + gaps
 
 Why TF-IDF + Cosine Similarity? TF-IDF weights domain-specific terms (e.g. "PyTorch", "RAG", "SageMaker") by importance. Cosine similarity then measures how aligned the two documents are — fast, interpretable, and no black-box decisions.
